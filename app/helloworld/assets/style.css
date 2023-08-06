@@ -1,0 +1,73 @@
+body{
+    background: #030303;
+}
+
+.wrapper.four {
+    background-color: #2c2c2c;
+    font-size: 3rem;
+    font-family: "Play", sans-serif;
+}
+.four .type{
+    padding: 2rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.four h3 {
+    width: 13ch;
+    border-right: 4px solid rgb(255, 255, 255);
+    margin: 2rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    
+}
+ .imc{
+    padding: 30px;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+ }
+
+ .metereologia{
+    padding: 30px;
+    width: 50%;
+    height: 35%;
+    border-radius: 10%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+ }
+  
+ a {
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+  }
